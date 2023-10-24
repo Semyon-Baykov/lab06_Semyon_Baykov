@@ -1,3 +1,4 @@
+# Semyon Baykov
 # Encoder stores the encoded password to a new variable, with each digit being shifted up by 3 numbers
 def encode(pswd):
     output = ''
