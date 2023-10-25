@@ -9,7 +9,16 @@ def encode(pswd):
 
 # Decoder code goes here (inverse of encode())
 def decode(pswd):
-    pass
+    decoded_password = ""
+    for x in range(len(pswd)):
+        y = int(pswd[x]) - 3
+        if y < 0:
+            y += 10
+            decoded_password += str(y)
+        else:
+            decoded_password += str(y)
+    return decoded_password
+
 
 
 # Main function with menu loop
