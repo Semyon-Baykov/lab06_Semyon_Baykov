@@ -21,7 +21,7 @@ def main():
             pswd = encode(input('Please enter your password to encode: '))
             print('Your password has been encoded and stored!\n')
         elif opt == '2':
-            print(f'THe encoded password is {pswd}, and the original password is {decode(pswd)}.\n')
+            print(f'The encoded password is {pswd}, and the original password is {decode(pswd)}.\n')
         else:
             return
 
